@@ -1,0 +1,62 @@
+.navbar {
+    width: 100%;
+    align-items: center;
+    background-color: #f8f9ff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    padding: 20px 24px;
+    position: relative;
+  }
+  
+  .logo {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    position: relative;
+  }
+  
+  .logo-icon {
+    height: 25.55px;
+    position: relative;
+    width: 53.33px;
+  }
+  
+  .nebula-motors {
+    color: #2d2d2d;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    margin-top: -0.38px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .text-wrapper {
+    font-weight: 700;
+  }
+  
+  .span {
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 300;
+  }
+  
+  .navigation-menu {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .button-instance {
+    flex: 0 0 auto !important;
+  }
+  

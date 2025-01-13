@@ -1,0 +1,110 @@
+.project-card {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #d7d7d7;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+    width: 322px;
+  }
+  
+  .project-card .image-placeholder {
+    align-self: stretch;
+    height: 320px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+  }
+  
+  .project-card .text {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .project-card .frame {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .project-card .text-wrapper {
+    align-self: stretch;
+    color: #2d2d2d;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.28px;
+    line-height: 36.4px;
+    margin-top: -1.00px;
+    position: relative;
+  }
+  
+  .project-card .div {
+    align-self: stretch;
+    color: #3b3b3b;
+    font-family: "Mulish-Regular", Helvetica;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 31.5px;
+    position: relative;
+  }
+  
+  .project-card .frame-2 {
+    align-items: center;
+    background-color: #1e1e1e;
+    border: 1px solid;
+    border-color: transparent;
+    border-image: radial-gradient(
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.05)
+      )
+      1;
+    border-radius: 16px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 16px;
+    padding: 8px 16px;
+    position: absolute;
+    top: 16px;
+  }
+  
+  .project-card .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Mulish-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 14px;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .project-card .alert-icons-instance {
+    background-image: url(./image.png) !important;
+    position: relative !important;
+  }
+  
+  .project-card:hover {
+    transform: scale(0.97);
+  }
+  

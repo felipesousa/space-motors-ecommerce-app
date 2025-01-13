@@ -1,0 +1,162 @@
+.frame {
+    align-items: flex-start;
+    display: flex;
+    gap: 10px 10px;
+    max-width: 1440px;
+    position: relative;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.frame .hero-section {
+    align-items: flex-start;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.8) 0%,
+        rgba(251.47, 251.97, 255, 0.4) 50.5%,
+        rgb(255, 255, 255) 100%
+    );
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 40px;
+    height: 567px;
+    max-width: 1440px;
+    padding: 42px;
+    position: relative;
+    width: 100%;
+    min-width: 560px;
+}
+
+.frame .header {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: transparent;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.frame .div {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 100%;
+}
+
+.frame .text-wrapper {
+    align-self: stretch;
+    color: #2d2d2d;
+    font-family: 'Poppins-SemiBold', Helvetica;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -1.05px;
+    line-height: 54.6px;
+    margin-top: -1px;
+    position: relative;
+}
+
+.frame .div-wrapper {
+    align-items: flex-end;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 24px 24px;
+    position: relative;
+    width: 100%;
+}
+
+.frame .text-wrapper-2 {
+    color: #2d2d2d;
+    font-family: 'Mulish-SemiBold', Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.frame .div-2 {
+    align-items: flex-end;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 24px 24px;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.frame .text-wrapper-3 {
+    color: #2d2d2d;
+    font-family: 'Mulish-Regular', Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.frame .CT-as {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 18px;
+    position: relative;
+}
+
+.frame .button-instance {
+    flex: 0 0 auto !important;
+}
+
+.frame .header-wrapper {
+    align-items: flex-start;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.8) 0%,
+        rgba(251.47, 251.97, 255, 0.4) 50.5%,
+        rgb(255, 255, 255) 100%
+    );
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 40px;
+    height: 567px;
+    max-width: 1440px;
+    min-width: 360px;
+    padding: 42px;
+    position: relative;
+}
+
+.frame .img {
+    align-self: stretch;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+}

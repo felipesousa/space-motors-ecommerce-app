@@ -1,0 +1,78 @@
+.button {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .label {
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .arrow-right {
+    background-image: url(./arrow-right.svg) !important;
+    margin-bottom: -3.50px !important;
+    margin-top: -3.50px !important;
+  }
+  
+  .class {
+    background-image: url(./arrow-right-2.svg) !important;
+    margin-bottom: -5.00px !important;
+    margin-top: -5.00px !important;
+  }
+  
+  .class-2 {
+    background-image: url(./image.svg) !important;
+    margin-bottom: -3.50px !important;
+    margin-top: -3.50px !important;
+  }
+  
+  .primary {
+    background-color: #009379;
+    border-radius: 16px;
+    height: 45px;
+    padding: 16px 24px;
+  }
+  
+  .tertiary {
+    border-radius: 20px;
+    height: 42px;
+    padding: 16px 8px;
+  }
+  
+  .secondary {
+    border: 1px solid;
+    border-color: #009379;
+    border-radius: 16px;
+    height: 45px;
+    padding: 16px 24px;
+  }
+  
+  .primary .label {
+    color: #ffffff;
+    margin-bottom: -4.50px;
+    margin-top: -6.50px;
+  }
+  
+  .tertiary .label {
+    color: #009379;
+    margin-bottom: -6.00px;
+    margin-top: -8.00px;
+  }
+  
+  .secondary .label {
+    color: #009379;
+    margin-bottom: -4.50px;
+    margin-top: -6.50px;
+  }
+  
