@@ -7,6 +7,7 @@
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .frame .hero-section {
@@ -26,11 +27,11 @@
     flex-grow: 1;
     gap: 40px;
     height: 567px;
-    max-width: 1440px;
     padding: 42px;
     position: relative;
     width: 100%;
-    min-width: 560px;
+    min-width: 350px;
+    max-width: 100%;
 }
 
 .frame .header {

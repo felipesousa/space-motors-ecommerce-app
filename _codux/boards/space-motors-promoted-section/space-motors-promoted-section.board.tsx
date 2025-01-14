@@ -5,6 +5,6 @@ export default createBoard({
     name: 'SpaceMotorsPromotedSection',
     Board: () => <SpaceMotorsPromotedSection />,
     environmentProps: {
-        windowWidth: 1050,
+        windowWidth: 971,
     },
 });

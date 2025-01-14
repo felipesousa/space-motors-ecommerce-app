@@ -15,7 +15,7 @@ export const SpaceMotorsPromotedSection = (): JSX.Element => {
   return (
     <div className={styles.frame}>
       <div className={styles["hero-section"]} style={{
-            background: `url(${FeaturedImageOne})`
+            background: `center / cover no-repeat url("${FeaturedImageOne}")`,
         }}>
         <header className={styles.header} >
           <div className={styles.div}>
@@ -41,7 +41,7 @@ export const SpaceMotorsPromotedSection = (): JSX.Element => {
       </div>
 
       <div className={styles["hero-section"]} style={{
-            background: `url(${FeaturedImageTwo})`
+            background: `center / cover no-repeat url("${FeaturedImageTwo}")`,
         }}>
         <header className={styles.header}>
           <div className={styles.div}>

@@ -5,6 +5,8 @@ export default createBoard({
     name: 'SpaceMotorsFooter',
     Board: () => <SpaceMotorsFooter />,
     environmentProps: {
-        windowWidth: 434.49877969133473,
+        windowWidth: 427,
+        windowHeight: 640,
     },
+    isSnippet: true,
 });
